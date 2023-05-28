@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <!--Scripts-->
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/loading.js"></script>
+        <script src="js/button_function.js"></script>
+        
+        <!--ico-->
+        <link href="static/img/favicon.ico" rel="shortcut icon">
+
+        <!--Css-->
+        <link href="css/background.css" rel="stylesheet">
+        <link href="css/loading.css" rel="stylesheet">
+        <link href="css/buttoN_style.css" rel="stylesheet">
+        <link href="css/img_style.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+        <title>窝很可爱~给我打钱喵~</title>
+    </head>
+    <body>
+        <div id="loading">
+            <div id="loading_bg">
+                <div class="loader">Loading...</div>
+            </div>
+        </div>
+        <button class="button", onclick="switch_img(0)">自定义</button>
+        <button class="button", onclick="switch_img(10)">10元</button>
+        <button class="button", onclick="switch_img(20)">20元</button>
+        <button class="button", onclick="switch_img(50)">50元</button>
+        <button class="button", onclick="switch_img(100)">100元</button>
+        <button class="button", onclick="switch_img(200)">200元</button>
+        <p style="text-align: center;">
+            <img src="static/img/0.webp", width=60%, id="pay_img">
+        </p>
+    </body>
+</html>

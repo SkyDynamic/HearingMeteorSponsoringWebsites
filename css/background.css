@@ -1,0 +1,12 @@
+body {
+    background-image: url('https://t.mwm.moe/pc');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+@media all and (orientation : portrait){
+    body {
+    background-image: url('https://t.mwm.moe/mp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
