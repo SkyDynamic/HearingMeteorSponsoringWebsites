@@ -14,4 +14,5 @@ if (!String.prototype.format) {
 
 function switch_img(vaule){
   $('#pay_img').attr('src', img_path.format(vaule))
+  $('#pay_zfb_img').attr('src', img_path.format(vaule + 'zfb'))
 }

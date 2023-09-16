@@ -1,4 +1,10 @@
+.containder {
+    width: auto;
+    height: auto;
+}
+
 img{
     text-align: center;
     vertical-align: middle;
+    width: 60%;
 }
